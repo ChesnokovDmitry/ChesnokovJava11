@@ -1,0 +1,13 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+/uiDesigner.xml
+/runConfigurations.xml
+/qaplug_profiles.xml
+/misc.xml
+/jarRepositories.xml
+/encodings.xml
+/dbnavigator.xml
+/compiler.xml
+/$PROJECT_FILE$
+/target
