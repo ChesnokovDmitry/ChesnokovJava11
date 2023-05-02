@@ -19,6 +19,10 @@ public class Task1
             while (true) {
                 inputString = reader.readLine();
 
+                /*
+                    exit для перехода к следующей задаче
+                */
+                
                 if (inputString.equals(exit)) {
                     result = exit;
                     break;
@@ -29,9 +33,6 @@ public class Task1
                         if (inputNumber > (double) num) {
                             result = "Привет";
                             break;
-                            /*System.out.println("Привет" +
-                                    "\nВвести " + exit + " для перехода к следующей задаче" +
-                                    "\nНажать Enter для продолжения");*/
                         } else
                             System.out.println("Ввести любое число больше " + num);
                     } catch (NumberFormatException e) {
